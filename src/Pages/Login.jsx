@@ -1,13 +1,46 @@
-import React from "react";
+import { Link, Outlet } from 'react-router-dom'
+
+import React from 'react'
 
 function Login() {
-return (
-  <>
-  <div>
-    Login Page
-  </div>
-  </>
-)
+    return (
+        <>
+            <div className="relative flex flex-row-reverse w-full h-screen pr-14 pb-10">
+                <div className="z-10 flex h-[75%] rounded-3xl self-center flex-col items-center justify-center bg-white lg:w-1/2">
+                    <div className="flex w-full flex-col items-center justify-center">
+                        {<Outlet />}
+                    </div>
+                    <div className="flex flex-col items-center justify-center gap-2 p-4">
+                    <div className="flex gap-1 lg:gap-2">
+                            <p>New user?</p>
+                            <Link
+                                className="font-bold text-primary-500 no-underline"
+                                to="/signup"
+                            >
+                                Create an account!
+                            </Link>
+                        </div>
+                        <div className="flex gap-2">
+                            <p>Back to</p>
+                            <Link
+                                className="font-bold text-primary-500 no-underline"
+                                to="/"
+                            >
+                                home
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="hidden lg:w-1/2 lg:flex">
+                    <img
+                        src={"../public/loginBG.jpg"}
+                        alt=""
+                        className="absolute h-full w-full object-fill"
+                    />
+                </div>
+            </div>
+        </>
+    )
 }
 
 export default Login
