@@ -35,7 +35,7 @@ function LoginForm() {
                     </div>
                     <div className="flex flex-row-reverse items-center w-full">
                         <button
-                            className="flex w-2/5 cursor-pointer justify-center rounded-lg border-none bg-primary-300 p-2 text-lg font-bold text-white no-underline transition-all duration-100 ease-in-out"
+                            className="flex w-2/5 cursor-pointer justify-center rounded-lg border-none bg-tertiary-300 p-2 text-lg font-bold text-white no-underline transition-all duration-100 ease-in-out"
                             type="submit"
                             /*                             to={'/'} */
                         >
