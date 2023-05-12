@@ -1,5 +1,6 @@
 import { Link, Outlet } from 'react-router-dom'
 
+import NumberCounter from '../Components/Visitors'
 import React from 'react'
 
 function Login() {
@@ -32,6 +33,12 @@ function Login() {
                     </div>
                 </div>
                 <div className="hidden lg:w-1/2 lg:flex">
+                <div className='z-20 rounded-3xl flex flex-col items-center self-center ml-[5rem] h-2/3 w-2/3 pt-10 bg-[#d1cfcfbc]'>
+                    <h2 className='p-10 self-start md:self-center md:pt-0 md:text-[1.4rem] text-#333 font-bold '>
+                    Sign in and start enjoying the exclusive benefits for travelers! Customize your travel itineraries, receive expert recommendations and access discounts on accommodation and activities. Join our community of travelers and discover a world full of adventures!
+                    </h2>
+                    <NumberCounter />
+                </div>
                     <img
                         src={"../public/loginBG.jpg"}
                         alt=""
