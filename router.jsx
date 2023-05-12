@@ -1,7 +1,6 @@
 import App from "./src/App";
 import Layout from "./src/Layout/Layout";
 import Login from "./src/Pages/Login";
-import Cities from "./src/Pages/Cities";
 import { createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -19,9 +18,5 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login/>
   },
-  {
-    path: "/cities",
-    element: <Cities/>
-  }
 ])
 export default router
