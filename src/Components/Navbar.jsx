@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import logo from '../assets/logo.png';
-import Search from '../assets/iconmonstr-search-thin-240.png';
+import Search from '../assets/icon-search.png';
 import login from '../assets/iconmonstr-user-20-240.png';
 
 function Navbar() {
