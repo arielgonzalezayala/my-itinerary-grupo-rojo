@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import logo from '../../public/assets/0f58830a95e6da2b8f37904e0910375f.png';
-import Search from '../../public/assets/iconmonstr-search-thin-240.png';
-import login from '../../public/assets/iconmonstr-user-20-240.png';
+import logo from '../assets/logo.png';
+import Search from '../assets/iconmonstr-search-thin-240.png';
+import login from '../assets/iconmonstr-user-20-240.png';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);

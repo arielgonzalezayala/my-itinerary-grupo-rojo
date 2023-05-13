@@ -1,11 +1,12 @@
-import GalleriaCities from '../Components/GalleriaCities'
+import Carrusel from '../Components/Carrusel'
+import Navbar from '../Components/Navbar'
 
 function Cities() {
 return (
   <>
-  <div>
-  <GalleriaCities/>
-    Cities Page
+  <div className=''>
+  <Navbar/>
+  <Carrusel/>
   </div>
   </>
 )
