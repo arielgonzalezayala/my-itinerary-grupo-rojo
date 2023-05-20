@@ -2,8 +2,11 @@
 
 function Main() {
   return (
-    <main className="bg-white p-4 my-10">
-      {/* Contenido en proceso */}
+    <main className="bg-paisajeMain h-screen ">
+      <div className="">
+      
+
+      </div>
     </main>
   );
 }
