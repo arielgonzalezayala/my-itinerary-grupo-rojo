@@ -37,7 +37,7 @@ module.exports = {
                 },
             },
             backgroundImage: {
-                paisajeMain : "url('./public/assets/wp4192320.jpg')",
+                'paisajeMain' : "url('./public/assets/wp4192320.jpg')",
                 'paisaje2': "url('https://wallpapercave.com/dwp1x/wp4192372.jpg')",
               }
         }
