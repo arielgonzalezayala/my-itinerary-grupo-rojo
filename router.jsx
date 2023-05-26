@@ -6,6 +6,7 @@ import NumberCounter from "./src/Components/Visitors";
 import Signin from "./src/Components/LoginForm";
 import Signup from "./src/Pages/Signup";
 import SignupForm from "./src/Components/SignupForm";
+import Cities from "./src/Pages/Cities"
 import { createBrowserRouter } from "react-router-dom";
 
 const router = createBrowserRouter([
@@ -42,6 +43,11 @@ const router = createBrowserRouter([
           element: <SignupForm />,
       },
   ],
+  },
+  ,
+  {
+    path: "/cities",
+    element: <Cities/>,
   },
 ])
 export default router
